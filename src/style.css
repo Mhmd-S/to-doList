@@ -135,7 +135,7 @@
     width: 85%;
     height: 6px;
     border-bottom: 3px solid #28a745;
-    margin: 1rem 0;
+    margin: .25rem 0 0.5rem 0;
     align-self: center;
 }
 
@@ -145,6 +145,12 @@
     font-weight:300 ;
     left: 1em;
     margin: 0 0 1rem 0;
+}
+
+#filesHeader {
+    text-align: center;
+    margin:0;
+    font-size: 1.75rem;
 }
 
 .addButton {
