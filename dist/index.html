@@ -79,10 +79,44 @@
                 <p class="itemMiniHeader">Item Status</p>
                 <p class="itemMiniDesc">Not Completed</p>
             </div>
-
         </div>
     </div>
-</div>
+
+            <form action="#" id="itemForm" autocomplete="off">
+                <h3 id="formHeader">Create An Item</h3>
+
+                <div class="formSection" id="formTaskName">
+                <label for="taskName">Task Name</label>
+                <input type="text" name="taskName" id="taskName">
+                </div>
+
+                <div class="formSection" id="formTaskDesc">
+                <label for="taskDesc">Task Description</label>
+                <textarea name="taskDesc" id="taskDesc" rows="10" cols="30"></textarea>
+                </div>
+
+                <div class="miniFormSection" id="formTaskDue">
+                <label for="taskDue">Due Date</label>
+                <input type="date" name="taskDue" id="taskDue">
+                </div>
+
+                <div class="miniFormSection" id="formTaskPriority">
+                <label for="taskPriority">Task Priority</label>
+                <select name="taskPriority" id="taskPriority">
+                    <option value="normal">Normal</option>
+                    <option value="urgent">Urgent</option>
+                    <option value="critical">Critical</option>
+                  </select>
+                </div>
+                
+                <div class="formSection" id="buttonDivForm">
+                    <button id="submitForm" type="submit">Create Item</button>
+                    <button id="cancelForm" type="submit">Cancel</button>
+                </div>
+            </form>
+        </div>
+        
+
 </div>
 </body>
 <script src="./bundle.js"></script>
