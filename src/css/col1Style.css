@@ -1,0 +1,28 @@
+#column1{
+    padding: 0.5rem 0rem 0rem 0.6rem ;
+    grid-area: a;
+    border: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}  
+
+#column1 > li {
+    padding: 0.45rem;
+}
+
+#column1 > li > p {
+    display: inline-block;
+    position: relative;
+    left:1em;
+}
+
+
+
+#seperator {
+    width: 85%;
+    height: 6px;
+    border-bottom: 3px solid #28a745;
+    margin: .25rem 0 0.5rem 0;
+    align-self: center;
+}

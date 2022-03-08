@@ -1,0 +1,37 @@
+#editItem {
+    z-index: 9999999;
+    opacity: .97;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.671);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    width: 40%;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10%  1fr 2fr 1fr 1fr;
+    grid-template-areas:
+    "h1 h1"
+    "aa1 aa1"
+    "bb1 bb1"
+    "cc1 dd1"
+    "button1 button1";
+}
+
+#editTaskName {
+    grid-area: aa1;
+}
+
+#editTaskDesc {
+    grid-area: bb1;
+}
+
+#editTaskDue {
+    grid-area: cc1;
+}
+
+#editPriority {
+    grid-area: dd1;
+}
