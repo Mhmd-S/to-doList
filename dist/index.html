@@ -56,12 +56,39 @@
                 <div class="itemInfoRow" id="itemPriority">
                     <p class="itemMiniHeader">Item Status</p>
                     <p class="itemMiniDesc">Not Completed</p>
-                
                 </div>
-            
             </div>
+
+            <div class="inputWrapper">
         
-        
+                <div class="itemInfoRow">
+                    <label for="itemNameInput" class="itemMiniHeader">Item Name</label>
+                    <input name="itemNameInput" id="itemNameInput" type="text" class="itemMiniInput">
+                </div>
+    
+                <div class="itemInfoRow">
+                    <label for="itemDescInput" class="itemMiniHeader">Item Desc</label>
+                    <input name="itemDescInput" id="itemDescInput" type="text" class="itemMiniInput">
+                </div>
+    
+                <div class="itemInfoRow">
+                    <label for="itemDueInput" class="itemMiniHeader">Due Date</label>
+                    <input type="date" id="'itemDueInput" name="'itemDueInput" class="itemMiniInput">
+                </div>
+
+                <div class="itemInfoRow">
+                    <label for="itemPriorityInput" class="itemMiniHeader">Priority</label>
+                    <input type="range" name="=itemPriorityInput" class="itemMiniInput" id="itemPriorityInput" min="0" max="100" value="50" step="50">
+                    <div class="rangeGuage"><span>Low</span><span>Medium</span><span>High</span></div>
+                </div>
+
+                <div class="itemInfoRow itemInfoRow-Buttons">
+                    <button class="forumButton" id="cancelForm">Cancel</button>
+                    <button class="forumButton" id="confirmForm">Confirm</button>
+                </div>
+    
+            </div>
+            
         <div class="col3UtilityWrapper">
             <button class="col3Utility" id="editItem"><i class="far fa-edit"></i></button>
             <button class="col3Utility" id="deleteItem"><i class="fas fa-minus-circle"></i></button>
@@ -71,33 +98,6 @@
                 
                             <!-- FORM AND EDIT SECTION -->
     
-    <div class="inputWrap">
-        <div class="itemInput">
-        
-            <div class="itemInfoRow">
-                <label for="itemNameInput" class="itemMiniHeader">Item Name</label>
-                <input name="itemNameInput" id="itemNameInput" type="text" class="itemMiniDisc">
-            </div>
-
-            <div class="itemInfoRow">
-                <label for="itemDescInput" class="itemMiniHeader">Item Desc</label>
-                <input name="itemDescInput" id="itemDescInput" type="text" class="itemMiniDisc">
-            </div>
-
-            <div class="itemInfoRow">
-                <label for="itemDueInput" class="itemMiniHeader">Due Date</label>
-                <input type="date" id="'itemDueInput" name="'itemDueInput">
-            </div>
-            <div class="itemInfoRow">
-                <label for="itemPriorityInput" class="itemMiniHeader">Priority</label>
-                <input type="range" name="=itemPriorityInput" id="itemPriorityInput" min="0" max="100" value="50" step="50">
-                
-            </div>
-
-        </div>
-
-    </div>
-
 </div>
 
 </body>
