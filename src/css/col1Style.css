@@ -26,3 +26,36 @@
     margin: .25rem 0 0.5rem 0;
     align-self: center;
 }
+
+.filesList{
+    width: 100%;
+    padding: 0 1.7rem;
+}
+
+.fileItem{
+    padding: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    cursor: pointer;
+}
+
+.fileItem:hover {
+    color: rgb(66, 66, 66);
+}
+
+.fa-minus-circle:hover{
+    color: rgba(255, 0, 0, 0.685);
+}
+
+.miniHeader > .fa-plus {
+    color: grey !important;
+    margin-left: 1.8rem;
+    margin-bottom: .2rem;
+}
+
+.miniHeader > .fa-plus:hover {
+    color:#28a745 !important;
+    cursor: pointer;
+}
