@@ -28,6 +28,10 @@
     border-radius: 5px;
 }
 
+.mainWrapperDisable{
+    pointer-events: none;
+}
+
 #mainWrapper::after {
     content: '';
     position: absolute;
@@ -115,6 +119,11 @@
     background-color: rgba(0, 0, 0, 0.486);
     top: -300%;
     font-family: 'Roboto', sans-serif;
+
+}
+
+.editFolderWrapperActive{
+    top:0%;
 }
 
 .editFolder{
@@ -128,8 +137,16 @@
     margin: 0 auto;
     margin-top: 5%;
     border-radius: 3px;
+    position: absolute;
     top:-300%;
+    left:40%;
+    transition: .5s ease-in-out;
 }
+
+.editFolderActive{
+    top:0%;
+}
+
 
 .topEdit {
     border-bottom: 2px solid #ededed;
