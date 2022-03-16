@@ -51,6 +51,10 @@
     color: rgb(66, 66, 66);
 }
 
+.fileItemActive {
+    color: rgb(66, 66, 66);
+}
+
 .fa-minus-circle:hover{
     color: rgba(255, 0, 0, 0.685);
 }
